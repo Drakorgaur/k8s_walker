@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "name": "K8s WALKER",
+    "version": "0.0.0",
+    "git": ""
+  },
+  "data": {
+    "name": "From config file",
+
+    "panel_resolution": {
+      "vertical_line": 0.8,
+      "right": {
+        "top": 1,
+        "bottom": 3
+      }
+    },
+
+    "filters": {
+      "context": {
+        "selected": null,
+        "options": ["dev", "test", "prod"]
+      },
+      "service": {
+        "selected": null,
+        "options": ["web", "api", "db"]
+      },
+      "type": {
+        "selected": null,
+        "options": ["deployment", "pod", "service"]
+      },
+      "type2": {
+        "selected": null,
+        "options": ["deployment", "pod", "service"]
+      },
+      "type3": {
+        "selected": null,
+        "options": ["deployment", "pod", "service"]
+      },
+      "type4": {
+        "selected": null,
+        "options": ["deployment", "pod", "service"]
+      }
+    }
+  }
+}
