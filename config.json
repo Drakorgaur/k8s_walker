@@ -17,7 +17,7 @@
 
     "filters": {
       "context": {
-        "selected": null,
+        "selected": 1,
         "options": ["dev", "test", "prod"]
       },
       "service": {
@@ -25,7 +25,7 @@
         "options": ["web", "api", "db"]
       },
       "type": {
-        "selected": null,
+        "selected": 2,
         "options": ["deployment", "pod", "service"]
       },
       "type2": {
@@ -37,6 +37,7 @@
         "options": ["deployment", "pod", "service"]
       },
       "type4": {
+
         "selected": null,
         "options": ["deployment", "pod", "service"]
       }
